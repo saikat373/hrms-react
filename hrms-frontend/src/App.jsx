@@ -1,6 +1,8 @@
 import { BrowserRouter, Routes, Route } from'react-router-dom'
 import {routes, authRoutes} from './routes'
 import AdminLayout from './elements/AdminLayout'
+import 'bootstrap/dist/css/bootstrap.min.css'
+
 function App() {
   return (
     <>
